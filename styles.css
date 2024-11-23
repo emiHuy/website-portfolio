@@ -114,7 +114,7 @@ h2 {
 
 @media screen and (max-width: 768px) {
     .box1 {
-        padding: auto; 
+        padding: 30px; 
         min-height: auto
     }
     
@@ -150,5 +150,6 @@ h2 {
         align-items: center;
         margin-bottom: 20px;
         height: auto;
+        height: 100vh;
     }
 }
