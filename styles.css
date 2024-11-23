@@ -114,7 +114,7 @@ h2 {
 
 @media screen and (max-width: 768px) {
     .box1 {
-        padding: 30px; 
+        padding: auto; 
         min-height: auto
     }
     
@@ -130,19 +130,9 @@ h2 {
         font-size: 1.5rem;
     }
 
-    .section2 {
-        height: auto;
-        padding-left: 0 20px;
-    }
-
     .icon {
         width: 40px;
         height: 40px;
-    }
-
-    .section3 {
-        height: auto; /* Let content grow naturally */
-        padding: 20px; /* Add padding */
     }
 
     .box2 {
@@ -151,5 +141,14 @@ h2 {
 
     h2 {
         font-size: 2rem;
+    }
+
+    .section1, .section2, .section3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        height: auto;
     }
 }
