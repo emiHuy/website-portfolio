@@ -143,7 +143,11 @@ h2 {
         font-size: 2rem;
     }
 
-    .section1, .section2, .section3 {
+    .section1 {
+        min-height: 80vh;
+    }
+    
+    .section2, .section3 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
