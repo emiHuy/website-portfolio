@@ -1,4 +1,5 @@
 # Emily Huynh's Portfolio Website
+https://emihuy.github.io/website-portfolio/
 
 ## Description
 this is my portfolio website, designed to showcase my skills, projects, and experience as someone interested in working in computer science related fields.
